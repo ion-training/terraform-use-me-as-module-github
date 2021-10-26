@@ -2,7 +2,7 @@
 Terraform can import github code into a module
 
 # How to use
-### Where terraform init, plan, apply will run, create a main.tf with:
+### In directory where terraform init, plan, apply will run, create a main.tf with:
 ```
 module null-from-github {
   source = "github.com/ion-training/terraform-use-me-as-module-github.git"
